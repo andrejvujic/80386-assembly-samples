@@ -1,5 +1,5 @@
 .section .data
-text: ascii "Hello World!"
+text: .ascii "Hello World!\n"
 text_len: .long . - text # subtract string start address from the current address to get the string's length
 
 .section .text
