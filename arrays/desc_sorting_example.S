@@ -1,7 +1,7 @@
 .section .data
 	LONG_SIZE = 4
     # sorting in descending order
-    # output: 1, 3, 8, 9, 65, 76
+    # output: 76, 65, 9, 8, 3, 1
 	arr: .long 8, 9, 3, 1, 65, 76
 	last_idx: .long (. - arr) / LONG_SIZE - 1
     
