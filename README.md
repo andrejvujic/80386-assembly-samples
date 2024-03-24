@@ -22,3 +22,6 @@ And finally run it:
 ./a.out
 ```
 
+# x86 system calls
+
+You can view all x86 system calls <a href="https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md#x86-32_bit">here</a>.
