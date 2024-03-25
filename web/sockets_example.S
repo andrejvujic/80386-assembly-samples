@@ -112,9 +112,9 @@
 	int $0x80
 .endm
 
-.macro sys_close sockfd
+.macro sys_close fd
 	movl $SYS_CLOSE, %eax
-	movl \sockfd, %ebx
+	movl \fd, %ebx
 	int $0x80
 .endm
 
