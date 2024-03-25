@@ -57,7 +57,7 @@
 		       .ascii "Content-Type: text/html\r\n"
 		       .ascii "Connection: close\r\n"
 		       .ascii "\r\n"
-		       .ascii "<h1>Hello from 80836 Assembler!</h1>"	
+		       .ascii "<h1>Hello from 80386 Assembler!</h1>"	
 	http_response_len = . - http_response
 	
 .section .text
